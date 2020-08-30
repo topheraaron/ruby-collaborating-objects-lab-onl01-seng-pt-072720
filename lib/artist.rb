@@ -64,7 +64,7 @@ class Artist
     @@all << self
   end
 
-  def self.all
+  def Song.all
     @@all
   end
 
