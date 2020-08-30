@@ -34,12 +34,13 @@ class Song
 
   def initialize(name)
     @name = name
+    @artist = []
   end
 
   def save
     @@all << self
   end
-  
+
   def self.all
     @@all
   end
