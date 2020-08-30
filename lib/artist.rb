@@ -61,11 +61,11 @@ class Artist
   end
 
   def save
-    @@all << self #saves the artist name to the all array
+    @@all << self
   end
 
   def self.all
-    @@all #displays the all array
+    @@all
   end
 
   def self.find_or_create_by_name(artist_name)
